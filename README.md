@@ -1,6 +1,6 @@
 # node-redis-demos
 
-## prepare
+## Prepare
 
 1. npm install
 
