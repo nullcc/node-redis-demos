@@ -1,0 +1,22 @@
+{
+  "name": "node-redis-demos",
+  "version": "0.1.0",
+  "description": "node-redis-demos",
+  "author": "nullcc",
+  "scripts": {
+    "test": "grunt test",
+    "build": "babel src -d lib",
+    "script-name": "babel-node script.js"
+  },
+  "dependencies": {
+    "async": "^2.1.4",
+    "babel-core": "^6.20.0",
+    "babel-polyfill": "^6.20.0",
+    "redis": "^2.6.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0"
+  }
+}
